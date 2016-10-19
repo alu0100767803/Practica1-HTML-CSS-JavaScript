@@ -1,0 +1,23 @@
+#cabecera{
+  background-image: url("../imagenes/Pacman.jpg");
+  background-size: 100% 100%;
+  width: auto;
+  height: 400px;
+  margin: 0px;
+}
+
+#titulo{
+  color: white;
+  text-align: center;
+}
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
