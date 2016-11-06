@@ -2,7 +2,7 @@
   background-image: url("../imagenes/Pacman.jpg");
   background-size: 100% 100%;
   width: auto;
-  height: 400px;
+  height: 300px;
   margin: 0px;
 }
 
@@ -15,6 +15,30 @@ body {
   background-image: url("../imagenes/celeste13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#presentacion {
+  margin-bottom: 150px;
+}
+
+#cine { 
+  margin-bottom: 150px;
+}
+
+#series { 
+  margin-bottom: 150px;
+}
+
+#videojuegos { 
+  margin-bottom: 150px;
+}
+
+#comprayventa { 
+  margin-bottom: 150px;
+}
+
+#home {
+  text-align: center;
 }
 
 li {
