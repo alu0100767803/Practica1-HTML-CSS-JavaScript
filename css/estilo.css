@@ -1,4 +1,4 @@
-#cabecera{
+#cabecera {
   background-image: url("../imagenes/Pacman.jpg");
   background-size: 100% 100%;
   width: auto;
@@ -6,10 +6,17 @@
   margin: 0px;
 }
 
-#titulo{
+#titulo {
   color: white;
   text-align: center;
 }
+
+body {
+  background-image: url("../imagenes/celeste13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 li {
   float: left;
 }
@@ -21,3 +28,8 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+#github {
+  text-align: center;
+}
+
