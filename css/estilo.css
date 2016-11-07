@@ -1,20 +1,68 @@
 #cabecera {
-  background-image: url("../imagenes/Pacman.jpg");
+  /*background-image: url("../imagenes/Pacman.jpg"); 
   background-size: 100% 100%;
   width: auto;
   height: 300px;
   margin: 0px;
+  */
 }
 
 #titulo {
   color: white;
   text-align: center;
+  font-size: 100px;
+  font-family: italic;
+  padding: 10px;
+  text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+  height: 170px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+hr {
+  border-color: black;
 }
 
 body {
-  background-image: url("../imagenes/celeste13.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px; */
+
+background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
 }
 
 #presentacion {
@@ -41,19 +89,10 @@ body {
   text-align: center;
 }
 
-li {
-  float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 #github {
-  text-align: center;
+  margin-left: 50%;
 }
 
+table {
+  margin: auto;
+}
