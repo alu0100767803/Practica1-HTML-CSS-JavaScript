@@ -54,38 +54,52 @@
     <div id="registro">
     	<form action="pagina2.html" method="get" onsubmit="return validar()">
     	<table>
-			<tr><td>Nombre:</td></tr>
-			<tr><td><input type="text" name="nombre" required></td></tr>
-    		<tr><td>Apellidos: <input type="text" name="apellidos" required></td></tr>
-    		<tr><td>Email: <input type="text" name="email" required></td></tr>
-    		<tr><td>Edad: </td></tr>
-    		<tr><td><input type="radio" name="edad" value="menor">menor de 18</td></tr>
-    		<tr><td><input type="radio" name="edad" value="joven">entre 18 y 30</td></tr>
-    		<tr><td><input type="radio" name="edad" value="adulto">entre 31 y 60</td></tr>
-    		<tr><td><input type="radio" name="edad" value="mayor" required> mayor de 60</td></tr>
-    		<tr><td>Género: </td></tr>
-    		<tr><td><input type="radio" name="genero" value="masculino">Masculino</td></tr>
-    		<tr><td><input type="radio" name="genero" value="femenino" required>Femenino</td></tr>
-    		<tr><td>Interesado en: </td></tr>
-    		<tr><td><input type="checkbox" name="intereses" value="cine"> Cine</td></tr>
-    		<tr><td><input type="checkbox" name="intereses" value="series"> Series</td></tr>
-    		<tr><td><input type="checkbox" name="intereses" value="videojuegos"> Videojuegos </td></tr>
-    		<tr><td><input type="checkbox" name="intereses" value="otros" > Otros </td></tr>
-			<tr><td>País: </td></tr>
-			<tr><td>
-				<select name="pais"> 
-					<option value="españa">España</option>
-					<option value="latinoamerica">Latinoamérica</option>
-					<option value="resto europa">Resto Europa</option>
-					<option value="asia">Asia</option>
-					<option value="oceania">Oceanía</option>
-					<option value="africa">África</option>
-					<option value="norte america">Norte América</option>
-				</select>
-			</td></tr>
-			<tr><td>Comenta acerca de la web:</td></tr>
-			<tr><td><textarea name="comentario" rows="5" cols="30"></textarea></td></tr>
-    		<tr><td><input type="submit" name="Enviar"></td></tr>
+    		<div id="datos-texto">
+				Nombre:<br>
+				<input type="text" name="nombre" required><br>
+	    		Apellidos:<br> 
+	    		<input type="text" name="apellidos" required><br>
+	    		Email: <br>
+	    		<input type="text" name="email" required><br>
+    		</div>
+    		<div id="datos-edad">
+	    		Edad: <br>
+	    		<input type="radio" name="edad" value="menor">menor de 18<br>
+	    		<input type="radio" name="edad" value="joven">entre 18 y 30<br>
+	    		<input type="radio" name="edad" value="adulto">entre 31 y 60<br>
+	    		<input type="radio" name="edad" value="mayor" required> mayor de 60<br>
+    		</div>
+    		<div id="datos-genero">
+    		Género: <br>
+	    		<input type="radio" name="genero" value="masculino">Masculino<br>
+	    		<input type="radio" name="genero" value="femenino" required>Femenino<br>
+    		</div>
+    		<div id="datos-intereses">
+    		Interesado en: <br>
+	    		<input type="checkbox" name="intereses" value="cine"> Cine<br>
+	    		<input type="checkbox" name="intereses" value="series"> Series<br>
+	    		<input type="checkbox" name="intereses" value="videojuegos"> Videojuegos <br>
+	    		<input type="checkbox" name="intereses" value="otros" > Otros <br>
+	    	</div>
+	    	<div id="pais">
+				País: <br>
+				
+					<select name="pais"> 
+						<option value="españa">España</option>
+						<option value="latinoamerica">Latinoamérica</option>
+						<option value="resto europa">Resto Europa</option>
+						<option value="asia">Asia</option>
+						<option value="oceania">Oceanía</option>
+						<option value="africa">África</option>
+						<option value="norte america">Norte América</option>
+					</select>
+				<br>
+			</div>
+			<div id="datos-comentario">
+				Comenta acerca de la web:<br>
+				<textarea name="comentario" rows="5" cols="30"></textarea><br>
+			</div>
+    		<input type="submit" name="Enviar"><br>
 
     	</form>
     	</table>
