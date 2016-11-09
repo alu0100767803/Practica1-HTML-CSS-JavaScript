@@ -52,7 +52,7 @@
     </header>
 
     <div id="registro">
-    	<form action="pagina2.html" method="get" onsubmit="return validar()">
+    	<form method="get" action="pagina2.html"  onsubmit="return validar(email)">
     	<table>
     		<div id="datos-texto">
 				Nombre:<br>
@@ -60,7 +60,7 @@
 	    		Apellidos:<br> 
 	    		<input type="text" name="apellidos" required><br>
 	    		Email: <br>
-	    		<input type="text" name="email" required><br>
+	    		<input id="email" type="text" name="Email" required><br>
     		</div>
     		<div id="datos-edad">
 	    		Edad: <br>
@@ -98,11 +98,10 @@
 			<div id="datos-comentario">
 				Comenta acerca de la web:<br>
 				<textarea name="comentario" rows="5" cols="30"></textarea><br>
+				<input type="submit" name="Enviar"><br>
 			</div>
-    		<input type="submit" name="Enviar"><br>
-
-    	</form>
     	</table>
+    	</form>
     </div>
 
    <footer>
